@@ -15,4 +15,7 @@ int main()
     //Accept nLebar
     cin >> Lebar;
 
+    //Compute nKeliling = 2(p+l)
+    Keliling = 2 * (Panjang + Lebar);
+
 }
