@@ -20,3 +20,7 @@ int Proses(){
     return Keliling = 2 * (Panjang + Lebar);
 }
 
+void Output(){
+    //Display "Keliling Persegi Panjang : " + nKeliling
+    cout << "Keliling Persegi Panjang : " << Keliling;
+}
