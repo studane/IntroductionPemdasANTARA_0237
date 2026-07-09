@@ -1,13 +1,36 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-    int Panjang;
-    int Lebar; 
-    string nama = "Abdul";
-    float harga = 50000;
-    double harga2 = 1000000;
+//Numeric nPanjang, nLebar, nKeliling
+int Panjang, Lebar, Keliling;
 
-    cout << "Nama saya : " << nama << endl;
-    cout << "Harga makanan itu : " << harga;
+void Input(){
+    //Display "Masukkan Panjang : "
+    cout << "Masukkan Panjang : ";
+    //Accept nPanjang
+    cin >> Panjang;
+    //Display "Masukkan Lebar : "
+    cout << "Masukkan Lebar : ";
+    //Accept nLebar
+    cin >> Lebar;
 }
+
+int Proses(){
+    //Compute nKeliling = 2(p+l)
+    return Keliling = 2 * (Panjang + Lebar);
+}
+
+void Output(){
+    //Display "Keliling Persegi Panjang : " + nKeliling
+    cout << "Keliling Persegi Panjang : " << Keliling;
+}
+
+
+int main()
+{//Mulai
+    Input();
+    Proses();
+    Output();
+
+
+}//Selesai
